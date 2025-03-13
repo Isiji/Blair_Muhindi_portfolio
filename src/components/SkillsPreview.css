@@ -1,0 +1,43 @@
+.skills-preview {
+    text-align: center;
+    padding: 50px;
+    background: white;
+  }
+  
+  .skills-preview h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    background: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 8px;
+  }
+  
+  .skills-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .skills-btn:hover {
+    background: #0056b3;
+  }
+  

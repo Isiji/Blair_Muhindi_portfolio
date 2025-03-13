@@ -1,0 +1,50 @@
+.projects-preview {
+    text-align: center;
+    padding: 50px;
+    background: #f4f4f4;
+  }
+  
+  .projects-preview h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .project-item {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background: white;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    width: 60%;
+    text-align: center;
+    transition: 0.3s;
+  }
+  
+  .project-item:hover {
+    background: #007bff;
+    color: white;
+  }
+  
+  .projects-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: white;
+    background: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .projects-btn:hover {
+    background: #0056b3;
+  }
+  
