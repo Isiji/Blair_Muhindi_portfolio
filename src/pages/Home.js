@@ -6,18 +6,18 @@ import EducationPreview from "../components/EducationPreview";
 import ContactPreview from "../components/ContactPreview";
 import ExperiencePreview from "../components/ExperiencePreview";
 import SkillsPreview from "../components/SkillsPreview";
-
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
+    <div className="home">
       <Hero />
-      <ProjectsPreview />
       <AboutPreview />
+      <SkillsPreview />
+      <ProjectsPreview />
       <EducationPreview />
+      <ExperiencePreview />
       <ContactPreview />
-        <ExperiencePreview />
-        <SkillsPreview />
         
 
     </div>

@@ -1,0 +1,22 @@
+.experience {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .job {
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  .job h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .job p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  

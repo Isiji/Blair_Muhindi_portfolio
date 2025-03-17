@@ -1,0 +1,75 @@
+/* Home Page Styling */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Section Styling */
+  .home section {
+    width: 100%;
+    max-width: 1200px;
+    padding: 50px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Background Alternation for Sections */
+  .home section:nth-child(odd) {
+    background-color: #f4f4f4;
+  }
+  
+  .home section:nth-child(even) {
+    background-color: #ffffff;
+  }
+  
+  /* Headings */
+  .home h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Paragraph Styling */
+  .home p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #555;
+  }
+  
+  /* Button Styling */
+  .home .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .home .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .home section {
+      padding: 30px 15px;
+    }
+  
+    .home h2 {
+      font-size: 1.8rem;
+    }
+  
+    .home p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,16 @@
+.education {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .education ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .education li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
